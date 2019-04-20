@@ -1,0 +1,163 @@
+/* @font-face {
+  font-family: ;
+} */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.wrapper {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.center {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  font-size: bold;
+}
+
+header {
+  position: relative;
+  height: 120px;
+  margin-bottom: 3em;
+  border-bottom: solid 1px white;
+}
+
+header a {
+  font-size: 43.15px;
+}
+
+header a > img {
+  height: 240px;
+  margin: -10px 0 0 -85px;
+}
+
+header a > span {
+  text-transform: uppercase;
+}
+
+.menu {
+  position: relative;
+}
+
+header nav div a {
+  color: white;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  /* border-bottom: solid 1px white; */
+}
+
+header nav div a:hover,  header nav div a:active, header nav div a:active:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.flex {
+  padding-top: 2em;
+  display: flex;
+  /* flex-flow: row wrap; */
+}
+
+aside > l-side, main, aside > r-side {
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.l-side {
+  text-transform: uppercase;
+  padding: 30px 20px 0 0;
+  margin-right: 30px;
+  margin-left: -15px;
+  min-width: 300px;
+  opacity: 0.5;
+  /* -webkit-transition: opacity 0.5s ease; */
+}
+
+.l-side p {
+  font-size: 1em;
+  line-height: 1em;
+  margin-bottom: 0px;
+}
+
+.l-side ul {
+  font-size: 1.2em;
+  list-style-type: none;
+}
+
+.l-side li {
+  line-height: 2em;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+}
+
+.l-side li a:active, l-side li a:active:hover, .l-side li a:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+}
+
+main {
+  margin-top: -15px;
+  padding: 0 20px;
+  font-size: 14px;
+  opacity: 0.7;
+  text-align: justify;
+}
+
+.r-side {
+  margin-left: 30px;
+}
+
+.r-side > .r-side-wrapper {
+  max-width: 590px;
+  border: solid 1px;
+}
+
+.r-side img {
+  width: 100%;
+}
+
+.r-side-wrapper blockquote {
+  padding: 20px;
+  font-size: 0.7em;
+  opacity: 0.7;
+  text-align: justify;
+}
+
+.r-side-wrapper blockquote footer {
+  text-align: right;
+  color: rgb(21, 224, 75);
+  text-transform: uppercase;
+}
