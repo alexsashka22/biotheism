@@ -49,7 +49,7 @@ div .pic img {
 blockquote {
   padding: 5px 10px;
   margin-bottom: 0;
-  font-size: 0.7em;
+  /* font-size: 0.7em; */
   text-align: justify;
 }
 
@@ -104,4 +104,10 @@ blockquote footer {
   hr {
     margin-bottom: 3rem!important;
   }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }
