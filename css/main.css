@@ -1,9 +1,9 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
 }
 
 .navbar-brand img {
@@ -15,7 +15,7 @@ ul {
   text-transform: uppercase;
 }
 
-ul > p{
+ul>p {
   margin-bottom: -5px;
   font-size: 12px;
 }
@@ -60,6 +60,37 @@ blockquote footer {
   margin-top: 5px;
 }
 
+/* `````glossary````` */
+.text-glossary-header::after {
+  display: block;
+  text-align: center;
+  content: "*****";
+  letter-spacing: 1.5em;
+  margin: 0.2em auto 0.4em;
+}
+
+.text-glossary-main span {
+  color: #ffffff;
+}
+
+.alphabet a {
+  color: rgba(255, 255, 255, .5);
+  text-transform: uppercase;
+}
+
+.alphabet a.act {
+  color: #ffffff;
+}
+
+.alphabet a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.alphabet a:active {
+  color: rgba(255, 255, 255, 1);
+}
+
+
 @media (min-width: 768px) {
   .navbar-container {
     position: sticky;
@@ -93,16 +124,16 @@ blockquote footer {
     height: 100%;
   }
 
-  ul > p{
+  ul>p {
     padding-left: 10px;
   }
 
   h1 {
-    margin-top: 3rem!important;
+    margin-top: 3rem !important;
   }
 
   hr {
-    margin-bottom: 3rem!important;
+    margin-bottom: 3rem !important;
   }
 }
 
